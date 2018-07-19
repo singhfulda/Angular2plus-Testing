@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { XyzFilterByService } from '../shared/filter-by.service';
 import { XyzUserListService } from './user-list.service';
+import { XyzWebStorageService} from '../shared/web-storage.service';
 
 @Component({
   selector: 'xyz-user-list',
